@@ -1,0 +1,31 @@
+// Newly added document
+{ 
+    "title" : "REST", 
+    "content" : "REST is short for REpresentational state transfer it's an architectural style for designing APIs", 
+    "_id" : ObjectId("5f8b12308f46f715e8393779")
+}
+// Newly added document
+{ 
+    "title" : "Bootstrap", 
+    "content" : "Bootstrap is a framework for making css codeing easier", 
+    "_id" : ObjectId("5f8b12aa8f46f715e839377a")
+}
+// Newly added document
+{ 
+    "title" : "API", 
+    "content" : "API stands for Application Programming Interface, It is a set of subroutine definitions, communication protocols, and tools for building software. In a general terms, it is a set of clearly defined methods of communication among various components. A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer", 
+    "_id" : ObjectId("5f8b13868f46f715e839377b")
+}
+// Newly added document
+{ 
+    "title" : "DOM", 
+    "content" : "DOM is short for, Document Object Model, It's like an API for interacting with ou HTML", 
+    "_id" : ObjectId("5f8b13d28f46f715e839377c")
+}
+
+{ 
+    "_id" : ObjectId("5f8b20cf169e821540bd951e"), 
+    "title" : "postmanTest", 
+    "content" : "post man is used to test an API", 
+    "__v" : NumberInt(0)
+}

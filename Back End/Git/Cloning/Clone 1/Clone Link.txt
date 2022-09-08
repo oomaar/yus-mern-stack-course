@@ -1,0 +1,12 @@
+To clone A Repo..
+
+search for the repo on github.com
+
+copy the repo clone url by pressing on the greenbutton named code !
+
+then type in hyper "git clone (and paste the url and press enter)
+
+voua-laa the repo.. is cloned
+
+This is the link of the cloned Repo..
+https://github.com/dkhamsing/open-source-ios-apps.git

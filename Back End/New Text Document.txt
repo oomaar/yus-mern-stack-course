@@ -1,0 +1,18 @@
+{
+"coord":{"lon":31.25,"lat":30.06},
+"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],
+"base":"stations",
+"main":{"temp":27.89,"feels_like":26.67,"temp_min":27.78,"temp_max":28,"pressure":1015,"humidity":69},
+"visibility":10000,
+"wind":{"speed":8.2,"deg":30},
+"clouds":{"all":0},
+"dt":1600025297,
+"sys":{"type":1,"id":2514,"country":"EG","sunrise":1599968320,"sunset":1600012998},
+"timezone":7200,"id":360630,"name":"Cairo","cod":200
+}
+
+
+
+
+https://thepiratebay.org/description.php?id=36188691
+http://haxnode.com/

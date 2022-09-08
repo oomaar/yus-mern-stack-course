@@ -1,0 +1,48 @@
+Terminal Commands:
+Set Git Username: git config --global user.name "Your name here"
+Set Git Email: git config --global user.email "your_email@example.com"
+Set Git Commit Message Editor: git config --global core.editor "code --wait"
+Check for Existing SSH Key: ls ~/.ssh
+Generate SSH Key: ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+Copy SSH Key (Replace the '⋖' symbol with an actual less than symbol):
+    Windows:
+        clip ⋖ ~/.ssh/id_rsa.pub
+    Mac:
+        pbcopy ⋖ ~/.ssh/id_rsa.pub
+    Linux:
+        sudo apt-get install xclip
+        xclip -sel clip ⋖ ~/.ssh/id_rsa.pub
+Verify SSH Key Setup: ssh -T git@github.com
+
+
+
++---[RSA 4096]----+
+|O*+=+o.          |
+|B*+oE+           |
+|Ooo*=.o          |
+|*=...= o         |
+|*o    + S        |
+|=.   .   .       |
+|=o  .   .        |
+|o..  o .         |
+|     .+          |
++----[SHA256]-----+
+
+
++---[RSA 4096]----+
+|    ..o+ .o.=*+..|
+|     .ooo+ *.*=.o|
+|      ..+ O Bo++.|
+|       . o O =.+.|
+|        S E = =  |
+|           = * . |
+|          . = o  |
+|             .   |
+|                 |
++----[SHA256]-----+
+
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC2fgD2qtNXHAFdB8MqloXjs+Ekyoc5z4Yz0ctgfwMzuCIfc/FaHs2G2mYxonIkRnGQObckqom76GFNLnXMy9MdWSK0PkVjWkz3lb/XOki0MmpC/dAvtvnCKO4qHFJD9by9GzcVy9TWWVEQsDny5JdCafyP9QF4GsYkq7gFx/SmfHYWua5sXYSxwN5DMM/eKBSBUTGmy2AhTXD+o4rHs1+bEBcGlLAuxex868uEuAcnvv5LGAoGba8r2W2erheeuHmj+/b+UEBXqjPjRXqLkhS+wxN9hXBuV5U0Afb2ayksAF/xi8Bxg00hrwVCrSuSaLx3mHUW8Hv+fOrDaTnKI0oLlhxJvMguPEbu+4mSupeVMns12DHhxTzi0qiNp09ErYclayraK2S6iioJjHoJzYBfAVu+Q+IsVOcm673LEr46LUjo/rAtf3d9WM7oHA4Jg2uMD3TJYHALmchKL8jCRzmOZaHAX9QwvnOKfa+tOS1xq8fNBqRQKGIuoSdQUbfm5sfeRsQ+5Qg2ztIkXnso7evkoTRCUiUGCdpsqHWJkeuvx/I0wnkB2KGCQhJ2HdDfh1ShXGrVTSNxXCmBSjOYxRwQs6EZc/3DsiMLUVXFZoZ70BsWaCZfgDLGXMAMMqt6h3CJEQgWkOVYpLqM+Ts+9EtD11yFfojbQoizbo3O64+UUQ== omaar.c63@gmail.com
+
